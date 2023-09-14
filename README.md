@@ -12,7 +12,7 @@ EXPOSE 3000
 
 ## Usage
 
-Runs `json-server` using the provided `db.json`
+Run `json-server` using the provided `db.json`:
 
 ```sh
 docker run -d -P -v $(pwd)/db.json:/data/db.json --name json-server nilsjorgen/json-server:17-alpine
@@ -81,4 +81,3 @@ The query `$PATH_TO_SERVER/books/2` returns the book with id `2`:
   "author": "Leo Tolstoy"
 }
 ```
-

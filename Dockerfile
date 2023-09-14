@@ -1,4 +1,4 @@
-FROM node:17-alpine
+FROM node:18-alpine
 
 LABEL maintainer="nils.jorgen.mittet@nav.no"
 
